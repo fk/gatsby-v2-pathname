@@ -9,6 +9,8 @@ class Template extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
+    console.log(location.pathname)
+
     if (location.pathname === rootPath) {
       header = (
         <h1
